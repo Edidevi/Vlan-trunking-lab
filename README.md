@@ -15,10 +15,10 @@ The objective of this lab is to build and analyze a standard Layer 2 Virtual Loc
 
 | Device Name | Connected Port | VLAN Assignment | IP Address | Subnet Mask |
 | :--- | :--- | :--- | :--- | :--- |
-| **PC-A** | S1 / Fa0/10 | VLAN 10 (HR) | 192.168.10.11 | 255.255.255.0 |
-| **PC-B** | S1 / Fa0/20 | VLAN 20 (IT) | 192.168.20.11 | 255.255.255.0 |
-| **PC-C** | S2 / Fa0/10 | VLAN 10 (HR) | 192.168.10.12 | 255.255.255.0 |
-| **PC-D** | S2 / Fa0/20 | VLAN 20 (IT) | 192.168.20.12 | 255.255.255.0 |
+| **PC-A** | S1 / Fa0/10 | VLAN 10 (NBA) | 192.168.10.11 | 255.255.255.0 |
+| **PC-B** | S1 / Fa0/20 | VLAN 20 (NFL) | 192.168.20.11 | 255.255.255.0 |
+| **PC-C** | S2 / Fa0/10 | VLAN 10 (NBA) | 192.168.10.12 | 255.255.255.0 |
+| **PC-D** | S2 / Fa0/20 | VLAN 20 (NFL) | 192.168.20.12 | 255.255.255.0 |
 
 ---
 
