@@ -95,3 +95,8 @@ S1(config-if)# exit
    *Because they are on the same network *
 2. **Inter-VLAN Ping (`PC-A` to `PC-B`):** **FAILED** ❌  
    *Because they are on different networks, i didn't use a router so this was expected
+
+## :chart_with_upwards_trend: Learning
+- From this lab i learn't how helpful trunk ports can be when dealing with multiple streams of VLAN traffic, keeping  data seperate when one line is used to carry 
+many different types of sensitive data to the same destination via the same line.
+- I also learnt to avoid using access ports for interswitch links when dealing with VLANs, the access port will strip the packets of their vlan id.
