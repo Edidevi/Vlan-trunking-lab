@@ -92,9 +92,9 @@ S1(config-if)# exit
 
 ### Results 
 1. **Intra-VLAN Ping (`PC-A` to `PC-C`):** **SUCCESSFUL** ✅  
-   *Because they are on the same network *
+   *Because they are on the same network and vlan *
 2. **Inter-VLAN Ping (`PC-A` to `PC-B`):** **FAILED** ❌  
-   *Because they are on different networks, i didn't use a router so this was expected
+   *Because they are on different networks and vlans, i didn't use a router so this was expected
 
 ## :chart_with_upwards_trend: Learning
 - From this lab i learnt how helpful trunk ports can be when dealing with multiple streams of VLAN traffic, keeping  data seperate when one line is used to carry 
