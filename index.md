@@ -1,6 +1,6 @@
 ---
 layout: lab
-title: VLAN L2 Troubleshooting
+title: VLAN Trunking Lab
 description: "A Cisco Packet Tracer lab exploring 802.1Q trunking, access ports, and L2 network segmentation across multiple switches."
 diagram: /Vlan-trunking-lab/vlantrunk.png
 
